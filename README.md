@@ -1,2 +1,3 @@
-# kodluyoruz-css-odev2
-Kodluyoruz.org CSS Odev2 
+# Kodluyoruz.org - CSS Odev2
+
+Veli Can Yıldız
