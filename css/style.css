@@ -3,17 +3,18 @@
   margin: 10px;
   overflow: hidden;
   margin-right: 16px;
-  font-family: arial,sans-serif;
+  font-family: arial;
   font-size: 13px;
 }
 
 .header-item a {
   display: block;
-  color: black;
+  color: rgb(105, 95, 95);
   text-align: right;
   padding: 5px 5px;
   text-decoration: none;
   float: right;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header-item a:hover {
@@ -67,6 +68,11 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   position: relative;
 }
 
+.search-voice {
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
 .input-enter {
   display: flex;
   flex: 1;
@@ -74,8 +80,8 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 }
 
 .input-area {
-  color: transparent;
-  flex: 100%;
+  color:transparent;
+  flex: 100%; 
   white-space: pre;
   font: 16px arial, sans-serif;
   line-height: 34px;
@@ -102,8 +108,12 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-indent: 0px;
   text-shadow: none;
   text-align: start;
-  appearance: textfield;
   cursor: text;
+  border: 0px solid;
+}
+
+.buttons {
+  text-align: center;
 }
 
 .googlesearch {
@@ -114,7 +124,14 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: center;
   cursor: pointer;
   user-select: none;
+  border-radius: 2em;
+  border: 0px solid;
+  background-color: #f2f2f2;
 }
+
+.googlesearch:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
 
 .feelinglucky {
   padding: 0 16px;
@@ -123,7 +140,14 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: center;
   cursor: pointer;
   user-select: none;
+  border-radius: 2em;
+  border: 0px solid;
+  background-color: #f2f2f2;
 }
+
+.feelinglucky:hover {
+  box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
 
 .footer {
   margin: 0;
@@ -136,13 +160,15 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   width: 100%;
   margin-left: -8px;
   line-height: 10px;
+  list-style-type: none;
+  background-color: #f2f2f2;
 }
 
-.footerli {
+.footer-item {
   float: left;
 }
 
-.footerli a {
+.footer-item a {
   display: block;
   color: #70757a;
   text-align: center;
@@ -154,6 +180,6 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   margin-right: -20px;
 }
 
-.footerli a:hover {
+.footer-item a:hover {
   text-decoration: underline;
 }
